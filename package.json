@@ -43,7 +43,7 @@
     "pretest": "eslint .",
     "precommit": "lint-staged",
     "test": "jest",
-    "tag": "git tag -f latest && npm version $1 && git push --tags -f && npm publish"
+    "tag": "git tag -f latest && npm version $1"
   },
   "lint-staged": {
     "*.js": [
