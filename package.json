@@ -42,7 +42,8 @@
     "prepublish": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "tag-minor": "git tag -f latest && git tag minor && git push --tags && npm publish"
   },
   "lint-staged": {
     "*.js": [
