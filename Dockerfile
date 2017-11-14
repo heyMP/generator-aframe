@@ -6,3 +6,4 @@ RUN npm install -g yo
 RUN npm install -g generator-aframe
 USER node
 WORKDIR /home/node/html
+ENTRYPOINT [ "yo", "aframe" ]

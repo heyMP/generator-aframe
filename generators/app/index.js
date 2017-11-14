@@ -17,7 +17,7 @@ module.exports = class extends Generator {
         name: 'port',
         message:
           'What port would you like this project to run on? This defaults to random open port.',
-        default: ''
+        default: '80'
       }
     ];
 
