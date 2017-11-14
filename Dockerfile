@@ -8,5 +8,3 @@ USER node
 WORKDIR /home/node
 
 WORKDIR /home/node/html
-CMD [ "polymer", "serve", "-H", "0.0.0.0", "-p", "8081" ]
-EXPOSE 8081
