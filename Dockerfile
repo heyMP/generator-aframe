@@ -5,6 +5,4 @@ FROM node:6.11.4
 RUN npm install -g yo
 RUN npm install -g generator-aframe
 USER node
-WORKDIR /home/node
-
 WORKDIR /home/node/html
