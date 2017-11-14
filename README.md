@@ -16,6 +16,30 @@ Then generate your new project:
 yo aframe
 ```
 
+## Development
+
+### Creating a release
+
+Tag latest
+```
+git tag -f latest
+```
+
+Increment Version
+```
+npm version [major | minor | patch]
+```
+
+Push tags
+```
+git tags --push -f
+```
+
+Publish to npm
+```
+npm publish
+```
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
