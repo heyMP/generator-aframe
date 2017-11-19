@@ -11,13 +11,6 @@ module.exports = class extends Generator {
         name: 'name',
         message: 'What would you like to name this aframe project?',
         default: this.appname.replace(' ', '-')
-      },
-      {
-        type: 'input',
-        name: 'port',
-        message:
-          'What port would you like this project to run on? This defaults to random open port.',
-        default: '80'
       }
     ];
 

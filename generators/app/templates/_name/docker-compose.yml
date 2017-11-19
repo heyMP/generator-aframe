@@ -1,10 +1,13 @@
 version: '3'
 services:
-  generator:
-    image: node:6
-  web:
-    image: nginx
+  sync:
+    image: ustwo/browser-sync
     volumes:
       - .:/usr/share/nginx/html
     ports:
-      - '<%= port %>:80'
+      - '3000:3000'
+      - '3001:3001'
+    volumes:
+      - .:/source
+    working_dir: /source
+    command: "start --server --files '**.*'"
