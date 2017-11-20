@@ -5,7 +5,7 @@
 
 ### Install via Docker
 
-Run the magic Docker command
+Run the magic Docker command using the [generator-aframe docker image.](https://hub.docker.com/r/heymp/generator-aframe/)
 ```
 docker run -it --rm -v `pwd`:/home/node/html heymp/generator-aframe:latest
 ```
