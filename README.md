@@ -3,6 +3,15 @@
 
 ## Installation
 
+### Install via Docker
+
+Run the magic Docker command
+```
+docker run -it --rm -v `pwd`:/home/node/html heymp/generator-aframe:latest
+```
+
+### Install Manually
+
 First, install [Yeoman](http://yeoman.io) and generator-aframe using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash

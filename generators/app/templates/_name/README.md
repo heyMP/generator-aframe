@@ -11,4 +11,9 @@ Run the docker start command to start a server at localhost:80
 make start
 ```
 
-Visit the website at [http://localhost](http://localhost)
+If you don't have Make available then run the docker command directly
+```
+docker-compose up -d
+```
+
+Visit the website at [http://localhost:3000](http://localhost:3000)
