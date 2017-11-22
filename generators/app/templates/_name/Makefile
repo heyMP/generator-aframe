@@ -1,7 +1,7 @@
 SHELL := /usr/bin/env bash
 
 start:
-	docker-compose up -d
+	docker-compose up
 
 clean:
 	docker-compose down --remove-orphans -v
